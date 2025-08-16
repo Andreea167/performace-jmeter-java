@@ -1,10 +1,10 @@
-# Performance Testing with JMeter (CI Integrated)
+# Performance Testing with JMeter and Java (CI Integrated)
 
-This project contains a JMeter test plan for testing the [Swagger Petstore API](https://petstore.swagger.io/). The test plan is defined in [`API_Testing.jmx`](API_Testing.jmx) and uses data from [`pet_data.csv`](pet_data.csv), instegrated into CI.
+This project contains a JMeter test plan for testing the [Swagger Petstore API](https://petstore.swagger.io/). The test plan is defined in [`api-jmeter.jmx`](api-jmeter.jmx) and uses data from [`pet_data.csv`](pet_data.csv), integrated into CI.
 
 ## Project Structure
 
-- [`API_Testing.jmx`](API_Testing.jmx): The main JMeter test plan.
+- [`api-jmeter.jmx`](api-jmeter.jmx): The main JMeter test plan.
 - [`pet_data.csv`](pet_data.csv): CSV file with pet data (name, status, photoUrl).
 - [`.github/workflows/jmeter.yml`](.github/workflows/jmeter.yml): GitHub Actions workflow for running JMeter tests in CI.
 
@@ -55,7 +55,7 @@ The test plan performs the following actions:
 
 ## How to Run
 
-1. Open [`API_Testing.jmx`](API_Testing.jmx) in JMeter.
+1. Open [`api-jmeter.jmx`](api-jmeter.jmx) in JMeter.
 2. Ensure [`pet_data.csv`](pet_data.csv) is in the same directory as the JMX file.
 3. Run the test plan.
 
