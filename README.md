@@ -1,6 +1,6 @@
-# Performance Testing with JMeter
+# Performance Testing with JMeter (CI Integrated)
 
-This project contains a JMeter test plan for testing the [Swagger Petstore API](https://petstore.swagger.io/). The test plan is defined in [`API_Testing.jmx`](API_Testing.jmx) and uses data from [`pet_data.csv`](pet_data.csv).
+This project contains a JMeter test plan for testing the [Swagger Petstore API](https://petstore.swagger.io/). The test plan is defined in [`API_Testing.jmx`](API_Testing.jmx) and uses data from [`pet_data.csv`](pet_data.csv), instegrated into CI.
 
 ## Project Structure
 
