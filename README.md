@@ -6,6 +6,7 @@ This project contains a JMeter test plan for testing the [Swagger Petstore API](
 
 - [`API_Testing.jmx`](API_Testing.jmx): The main JMeter test plan.
 - [`pet_data.csv`](pet_data.csv): CSV file with pet data (name, status, photoUrl).
+- [`.github/workflows/jmeter.yml`](.github/workflows/jmeter.yml): GitHub Actions workflow for running JMeter tests in CI.
 
 ## Test Plan Overview
 
