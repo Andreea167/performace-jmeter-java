@@ -26,7 +26,7 @@ jobs:
 
       - name: Run JMeter test
         run: |
-          ./apache-jmeter-5.6.3/bin/jmeter -n -t API_Testing.jmx -l results.jtl -j jmeter.log
+          ./apache-jmeter-5.6.3/bin/jmeter -n -t api-jmeter.jmx -l results.jtl -j jmeter.log
 
       - name: Upload JMeter results
         uses: actions/upload-artifact@v4
